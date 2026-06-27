@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native (regenerated via expo prebuild)
+android/
+ios/
+
+# Environment & secrets
+.env
+.env*.local
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# OS
+.DS_Store
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-error.log*
+.metro-health-check*
+
+# Editor (optional — see note above)
+.vscode/
